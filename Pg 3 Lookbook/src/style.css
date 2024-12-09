@@ -1,0 +1,82 @@
+.styled-image {
+  width: 20%; /* Set the image width to 100% of its container */
+  max-width: 20px; /* Limit the maximum width */
+  border-radius: 8px; /* Add rounded corners */
+  display: block; /* Ensures no inline spacing */
+  margin: 1rem auto; /* Centers the image with top/bottom spacing */
+}
+
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffeb00; /* Bright yellow background */
+  color: #000; /* Black text */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffeb00;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000;
+}
+
+main.lookbook-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #000; /* Black container */
+  color: #fff; /* White text */
+  border-radius: 8px;
+  text-align: center;
+}
+
+.lookbook-container h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+figure {
+  margin: 0;
+}
+
+figure img {
+  width: 100%;
+  border-radius: 8px;
+  border: 3px solid #ffeb00; /* Yellow border */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+figure img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(255, 235, 0, 0.5);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.875rem;
+  background-color: #ffeb00;
+}
+

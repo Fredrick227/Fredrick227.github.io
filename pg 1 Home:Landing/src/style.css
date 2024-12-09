@@ -1,0 +1,118 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffeb00; /* Bright yellow background */
+  color: #000; /* Black text */
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffeb00; /* Bright yellow */
+}
+
+header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Landing Container */
+.landing-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Hero Section */
+.hero {
+  padding: 4rem 2rem;
+  background-color: #000; /* Black background for contrast */
+  color: #fff; /* White text */
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-btn {
+  background-color: #ffeb00; /* Bright yellow button */
+  color: #000;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-btn:hover {
+  transform: scale(1.05); /* Slight enlargement */
+  box-shadow: 0 4px 15px rgba(255, 235, 0, 0.7); /* Glowing effect */
+}
+
+/* Gallery Section */
+.gallery {
+  margin-top: 2rem;
+}
+
+.gallery h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+  gap: 1.5rem;
+}
+
+.image-grid img {
+  width: 100%;
+  border-radius: 8px;
+  border: 3px solid #ffeb00; /* Yellow border for brand identity */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-grid img:hover {
+  transform: scale(1.05); /* Slight enlargement */
+  box-shadow: 0 4px 15px rgba(255, 235, 0, 0.7); /* Adds a glowing effect */
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.875rem;
+  background-color: #ffeb00;
+  color: #000; /* Black text for contrast */
+}
